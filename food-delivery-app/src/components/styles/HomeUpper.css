@@ -1,0 +1,110 @@
+.parallelogram {
+    width: 200px;
+    height: 50px;
+    background-color: #4bccd3; 
+    clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+    transform: skew(-5deg);
+    /* display: flex; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2rem;
+}
+
+.image-cont{
+    display: flex;
+    align-items: center;
+}
+.home-quote{
+    line-height: 4.2rem;
+    font-size: 3.2rem;
+    padding:48px;
+}
+
+.home-img{
+    width:36rem;
+    height:24rem;
+}
+
+.home-left{
+    width: 50%;
+}
+
+@media (max-width:1028px){
+    .home-quote{
+        line-height: 2.7rem;
+        font-size: 2rem;
+    }
+
+    .parallelogram {
+        width: 125px;
+        height: 35px;
+        background-color: #4bccd3; 
+        clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+        transform: skew(-5deg);
+        /* display: flex; */
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .home-img{
+       
+        width:20rem;
+        height:15rem;
+    }
+   
+  }
+@media (max-width:900px){
+    .home-quote{
+        line-height: 2.7rem;
+        font-size: 2rem;
+    }
+
+    .parallelogram {
+        width: 125px;
+        height: 35px;
+        background-color: #4bccd3; 
+        clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+        transform: skew(-5deg);
+        /* display: flex; */
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .home-img{
+        width:18rem;
+        height:12rem;
+    }
+   
+  }
+
+  @media (max-width:512px){
+    .home-quote{
+        line-height: 2.9rem;
+        font-size: 2.2rem;
+        padding:24px;
+    }
+
+    .parallelogram {
+        width: 125px;
+        height: 35px;
+        background-color: #4bccd3; 
+        clip-path: polygon(3% 0%, 100% 0%, 97% 100%, 0% 100%);
+        transform: skew(-5deg);
+        /* display: flex; */
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .home-img{
+        width:18rem;
+        height:12rem;
+    }
+    .home-left{
+        width: 100%;
+    }
+   
+  }

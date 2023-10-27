@@ -1,0 +1,210 @@
+[
+    {
+        "CategoryName":"South Indian",
+        "name":"Idli",
+        "img":"https://fpdl.in/uploads/[fpdl.in]_idly-idli-south-indian-main-breakfast-item-which-is-beautifully-arranged-aqua-color-plates_527904-2878_medium.jpg",
+        "type":"veg",
+        "Options":[
+            {
+             
+                "full":"100"
+            }
+        ]
+
+    },
+    {
+        "CategoryName":"South Indian",
+        "name":"Dosa",
+        "img":"https://img.freepik.com/free-photo/delicious-indian-dosa-arrangement_23-2149086024.jpg?size=626&ext=jpg&uid=R122193594&ga=GA1.1.1004686909.1684921837&semt=sph",
+        "type":"veg",
+        "Options":[
+            {   
+               
+                "full":"120"
+            }
+        ]
+
+    },
+    
+
+    {
+        "CategoryName":"South Indian",
+        "name":"Uttapam",
+        "img":"https://fpdl.in/uploads/[fpdl.in]_set-dosa-south-indian-traditional-popular-breakfast-served-with-chutney-sambar-rustic-wooden-background-selective-focus_726363-488_medium.jpg",
+        "type":"veg",
+        "Options":[
+            {
+                
+                "full":"100"
+            }
+        ]
+
+    },
+
+    {
+        "CategoryName":"South Indian",
+        "name":"Medu vada",
+        "img":"https://fpdl.in/uploads/[fpdl.in]_sambar-vada-medu-vada-popular-south-indian-food-served-with-green-red-coconut-chutney-moody-background-selective-focus_466689-59620_medium.jpg",
+        "type":"veg",
+        "Options":[
+            {
+                
+                "full":"100"
+            }
+        ]
+
+    },
+
+    {
+        "CategoryName":"Pizza",
+        "name":"Corn & Capsicum",
+        "img":"https://fpdl.in/uploads/[fpdl.in]_pizza-isolated-white-background-hot-fast-food-4-cheese-with-mozzarella-blue-cheese_75930-89_medium.jpg",
+        "type":"veg",
+        "Options":[
+            {
+                "small":"99",
+                "medium":"129",
+                "Large":"239"
+            }
+        ]
+
+    },
+
+    {
+        "CategoryName":"Pizza",
+        "name":"Chicken Tikka Pizza",
+        "img":"https://img.freepik.com/free-photo/hawaiian-pizza_1203-2455.jpg?size=626&ext=jpg&uid=R122193594&ga=GA1.1.1004686909.1684921837&semt=ais",
+        "type":"Non veg",
+        "Options":[
+            {
+                "small":"200",
+                "medium":"320",
+                "Large":"450"
+            }
+        ]
+
+    },
+   
+    
+    {
+        "CategoryName":"Biryani",
+        "name":"Veg Biryani",
+        "img":"https://img.freepik.com/free-photo/dish-with-rice_144627-18096.jpg?size=626&ext=jpg&uid=R122193594&ga=GA1.1.1004686909.1684921837&semt=ais",
+        "type":"veg",
+        "Options":[
+            {
+                "half":"120",
+                "full":"190"
+            }
+        ]
+
+    },
+    {
+        "CategoryName":"Biryani",
+        "name":"Dum Spicy Paneer Biryani",
+        "img":"https://fpdl.in/uploads/[fpdl.in]_idly-idli-south-indian-main-breakfast-item-which-is-beautifully-arranged-aqua-color-plates_527904-2878_medium.jpg",
+        "type":"veg",
+        "Options":[
+            {
+                "half":"160",
+                "full":"250"
+            }
+        ]
+
+    },
+    {
+        "CategoryName":"Biryani",
+        "name":"Veg Dum Biryani",
+        "img":"https://fpdl.in/uploads/[fpdl.in]_idly-idli-south-indian-main-breakfast-item-which-is-beautifully-arranged-aqua-color-plates_527904-2878_medium.jpg",
+        "type":"veg",
+        "Options":[
+            {
+                "half":"120",
+                "full":"190"
+            }
+        ]
+
+    },
+
+    {
+        "CategoryName":"Biryani",
+        "name":"Veg Hyderabadi Biryani",
+        "img":"https://fpdl.in/uploads/[fpdl.in]_idly-idli-south-indian-main-breakfast-item-which-is-beautifully-arranged-aqua-color-plates_527904-2878_medium.jpg",
+        "type":"veg",
+        "Options":[
+            {
+                "half":"120",
+                "full":"190"
+            }
+        ]
+
+    },
+    {
+        "CategoryName":"Biryani",
+        "name":" Hyderabadi Chicken Biryani",
+        "img":"https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg?size=626&ext=jpg&uid=R122193594&ga=GA1.1.1004686909.1684921837&semt=ais",
+        "type":"Non veg",
+        "Options":[
+            {
+                "half":"120",
+                "full":"190"
+            }
+        ]
+
+    },
+    
+    {
+        "CategoryName":"Biryani",
+        "name":"Chicken Tikka Biryani",
+        "img":"https://img.freepik.com/free-photo/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai_188544-13480.jpg?size=626&ext=jpg&uid=R122193594&ga=GA1.1.1004686909.1684921837&semt=ais",
+        "type":"Non veg",
+        "Options":[
+            {
+                "half":"120",
+                "full":"190"
+            }
+        ]
+
+    },
+    {
+        "CategoryName":"Biryani",
+        "name":"Prawns Dum Biryani",
+        "img":"https://img.freepik.com/free-photo/closeup-spicy-cooked-rice-with-meat-shrimp-vegetables-plate_181624-46713.jpg?size=626&ext=jpg&uid=R122193594&ga=GA1.1.1004686909.1684921837&semt=ais",
+        "type":"Non veg",
+        "Options":[
+            {
+                "half":"120",
+                "full":"190"
+            }
+        ]
+
+    },
+    
+    {
+        "CategoryName":"Chinese",
+        "name":"Manchurian",
+        "img":"https://img.freepik.com/free-photo/meatballs-sweet-sour-tomato-sauce_2829-19545.jpg?size=626&ext=jpg&uid=R122193594&ga=GA1.1.1004686909.1684921837&semt=sph",
+        "type":"veg",
+        "Options":[
+            {
+                "half":"40",
+                "full":"80"
+            }
+        ]
+
+    },
+   
+    {
+        "CategoryName":"Chinese",
+        "name":"Fried Rice",
+        "img":"https://img.freepik.com/free-photo/sausage-fried-rice-with-tomatoes-carrots-shiitake-mushrooms-plate_1150-27183.jpg?size=626&ext=jpg&uid=R122193594&ga=GA1.1.1004686909.1684921837&semt=ais",
+        "type":"veg",
+        "Options":[
+            {
+                "half":"80",
+                "full":"120"
+            }
+        ]
+
+    }
+]

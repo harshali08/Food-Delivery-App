@@ -1,0 +1,34 @@
+[
+    {
+        "CategoryName":"Breakfast"
+    },
+    {
+        "CategoryName":"Dinner"
+    },
+    {
+        "CategoryName":"South Indian"
+    },
+    {
+        "CategoryName":"North Indian"
+    },
+    {
+        "CategoryName":"Maharashtrian"
+    },
+    {
+        "CategoryName":"Italian"
+    },
+    {
+        "CategoryName":"Chinese"
+    },
+    {
+        "CategoryName":"Pizza"
+    },
+    {
+        "CategoryName":"Biryani"
+    },
+    {
+        "CategoryName":"Cakes"
+    }
+
+
+]
