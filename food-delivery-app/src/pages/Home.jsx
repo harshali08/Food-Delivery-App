@@ -11,7 +11,7 @@ const Home = () => {
       <Navbar></Navbar>
       <HomeUpper></HomeUpper>
   {/* <Category></Category> */}
-  <SwipeToSlide></SwipeToSlide>
+  {/* <SwipeToSlide></SwipeToSlide> */}
  
     </div>
   )

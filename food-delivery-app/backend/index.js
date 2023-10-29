@@ -5,6 +5,16 @@ mongoDB();
 const app=express()
 const port=5000
 
+
+app.use((req,resp,next)=>{
+    resp.setHeader("Access-Control-Allow-Origin","http://localhost:3000")
+    resp.header(
+        "Access-Control-Allow-Headers",
+        "Origin,X-Requested-with,Content-Type,Accept"
+    
+    )
+    next();
+})
 app.get('/',(req,resp)=>{
     resp.send("Hello World")
 })
