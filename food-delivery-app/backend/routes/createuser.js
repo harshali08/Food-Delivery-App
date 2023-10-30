@@ -66,4 +66,35 @@ router.post('/createuser', [
     }
 });
 
+router.post('/loginuser', [
+    body('email').isEmail(),
+    body('password').isLength({ min: 6 })
+], async (req, resp) => {
+    const errors = validationResult(req);
+
+    if (!errors.isEmpty()) {
+        return resp.status(400).json({ errors: errors.array() });
+    }
+
+    let useremail = req.body.email;
+
+    try {
+        const userData = await User.findOne({ email: useremail });
+
+        if (!userData) {
+            return resp.status(400).json({ error: "Enter Valid Credentials!" });
+        }
+        
+        if (req.body.password !== userData.password) {
+            return resp.status(400).json({ error: "Enter Correct Password" });
+        }
+
+        // If the password matches, return the user info
+        return resp.json({ success: true, user: userData });
+    } catch (error) {
+        return resp.status(500).json({ success: false, error: error.message });
+    }
+});
+
+
 module.exports = router;

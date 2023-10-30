@@ -1,8 +1,10 @@
 // import "../styles/SignInLeft.css";
 import React, { useState } from "react";
 import { FaEyeSlash, FaEye } from "react-icons/fa";
+import {useNavigate} from 'react-router-dom'
 
 const Login = () => {
+  
   const [showPassword, setShowPassword] = useState(false);
   const [user, setUser] = useState({
     
@@ -10,9 +12,10 @@ const Login = () => {
     password: "",
    
   });
+  let navigate = useNavigate()
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/createuser", {
+    const response = await fetch("http://localhost:5000/api/loginuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -28,7 +31,8 @@ const Login = () => {
     if (response.ok) {
       const data = await response.json();
       if (data.success) {
-        alert("Sign up successful!");
+        // alert("Sign In successful!");
+        navigate('/')
       } 
       // else {
       //   alert(data.message); // Display the server's error message.
