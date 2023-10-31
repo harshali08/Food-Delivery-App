@@ -1,8 +1,10 @@
 // import "../styles/SignInLeft.css";
 import React, { useState } from "react";
 import { FaEyeSlash, FaEye } from "react-icons/fa";
+import { useNavigate } from "react-router";
 
 const SignUp = () => {
+  let navigate=useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [user, setUser] = useState({
     name: "",
@@ -28,7 +30,8 @@ const SignUp = () => {
     if (response.ok) {
       const data = await response.json();
       if (data.success) {
-        alert("Sign up successful!");
+        // alert("Sign up successful!");
+        navigate('/')
       } 
       // else {
       //   alert(data.message); // Display the server's error message.
