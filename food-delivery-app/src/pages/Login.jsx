@@ -32,6 +32,8 @@ const Login = () => {
       const data = await response.json();
       if (data.success) {
         // alert("Sign In successful!");
+        localStorage.setItem("authToken",data.authToken)
+        console.log(localStorage.getItem("authToken"))
         navigate('/')
       } 
       // else {
